@@ -6,9 +6,9 @@ const composeEnchancers =
   window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 export const initialState = {
-  query: "",
-  data: [],
-  weatherState: "",
+  data: {},
+  isLoading: false,
+  bg: "",
 };
 
 const configureStore = createStore(
