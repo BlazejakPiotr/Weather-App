@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh !important;
 }
 
 .App-logo {
@@ -35,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form input {
+  background-color: rgba(255, 255, 255, 0.342) !important;
+}
+
+.Clear {
+  background: radial-gradient(
+    circle,
+    rgb(149, 209, 212) 0%,
+    rgb(90, 229, 245) 100%
+  );
+  /* color: #fff; */
+}
+
+.Clouds {
+  background: rgb(54, 153, 254);
+  background: radial-gradient(
+    circle,
+    rgba(54, 153, 254, 1) 0%,
+    rgba(38, 57, 194, 1) 100%
+  );
+  color: #fff;
+}
+
+.Rain {
+  background: rgb(6, 24, 97);
+  background: radial-gradient(
+    circle,
+    rgba(6, 24, 97, 1) 0%,
+    rgba(9, 10, 54, 1) 100%
+  );
+  color: #fff;
+}
+
+.Mist {
+  background: rgb(206, 224, 242);
+  background: radial-gradient(
+    circle,
+    rgb(223, 232, 241) 0%,
+    rgb(164, 165, 175) 100%
+  );
 }

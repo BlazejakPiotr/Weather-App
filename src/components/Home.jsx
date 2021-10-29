@@ -22,12 +22,6 @@ const Home = () => {
     dispatch(getWeatherData("poznan"));
   }, []);
 
-  const handleInput = (e) => {
-    setCity({
-      city: e.target.value,
-    });
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(getWeatherData(city));
@@ -35,7 +29,7 @@ const Home = () => {
 
   return (
     <Container>
-      <Row className="my-3">
+      <Row className="py-3">
         <Col xs={12}>
           <Form onSubmit={handleSubmit}>
             <FormControl
